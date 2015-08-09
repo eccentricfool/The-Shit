@@ -1,0 +1,85 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: helvetica;
+   font-size: 12px;
+}
+.keyboardBody{
+   position: relative;
+   background-color: #d2d0d0;
+   width: 680px;
+   height: 230px;
+   border-radius: 5px;
+}
+.standartKey{
+   position: absolute;
+   background-color: #fff;
+   height: 40px;
+   width: 40px;
+   top: 5px;
+   border-radius: 5px;
+}
+.up{
+   position: relative;
+   top: 2px;
+   left: 17px;
+}
+.down{
+   position: relative;
+   top: 6px;
+   left: 17px;
+}
+#backspace{
+   position: relative;
+   left: 40px;
+   top: 20px;
+}
+#sign1{
+   left: 19px;
+}
+#k007{
+   left: 15px;
+}
+#k001{
+   left: 5px;
+}
+#k004{
+   left: 50px;
+}
+#k006{
+   left: 95px;
+}
+#k009{
+   left: 140px;
+}
+#k012{
+   left: 185px;
+}
+#k015{
+   left: 230px;
+}
+#k018{
+   left: 275px;
+}
+#k021{
+   left: 320px;
+}
+#k024{
+   left: 365px;
+}
+#k027{
+   left: 410px;
+}
+#k030{
+   left: 455px;
+}
+#k033{
+   left: 500px;
+}
+#k036{
+   left: 545px;
+}
+#k039{
+   width: 85px;
+   left: 590px;
+}
