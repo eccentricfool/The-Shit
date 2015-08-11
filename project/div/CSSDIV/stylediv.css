@@ -1,13 +1,7 @@
 *{
    padding: 0;
    margin: 0;
-   font-family: "Helvetica Neue Light",
-                "Helvetica Neue",
-                Helvetica,
-                Arial,
-                "Lucida Grande",
-                sans-serif;
-	 font-weight: 100;
+   font-family: helvetica;
    font-size: 12px;
 }
 .keyboardBody{
@@ -65,13 +59,13 @@
    position: relative;
    display: block;
    text-align: center;
-   margin-top: 5px;
+   margin-top: 4px;
 }
 .down{
    position: relative;
    display: block;
    text-align: center;
-   margin-top: 5px;
+   margin-top: 3px;
    flex-direction: row;
 }
 .letter {
@@ -84,7 +78,7 @@
 .leftSpecial {
   display: block;
   text-align: left;
-  margin-top: 27px;
+  margin-top: 23px;
   margin-left: 5px;
   font-size: 80%;
 }
@@ -98,18 +92,15 @@
 .leftSpecialDown {
    display: block;
    text-align: left;
-   margin-top: 14px;
+   margin-top: 7px;
    margin-left: 5px;
    font-size: 80%;
 }
-
-
-
 .rightSpecial{
    display: block;
    text-align: right;
    margin-right: 5px;
-   margin-top: 27px;
+   margin-top: 23px;
    font-size: 80%;
 }
 
@@ -117,7 +108,7 @@
   display: block;
   text-align: right;
   margin-right: 5px;
-  margin-top: 14px;
+  margin-top: 7px;
   font-size: 80%;
 }
 
@@ -125,7 +116,7 @@
   display: block;
   text-align: right;
   margin-right: 5px;
-  margin-top: 4px;
+  margin-top: 5px;
   font-size: 70%;
 }
 .arrows{
