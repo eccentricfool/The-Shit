@@ -4,13 +4,23 @@
    font-family: helvetica;
    font-size: 12px;
 }
-.keyboardBody{
+.keyboardBodyMac{
    position: relative;
    background-color: #d2d0d0;
-   width: 680px;
+   width: 655px;
    height: 230px;
    border-radius: 5px;
 }
+
+.keyboardBodyWin{
+   position: relative;
+   background-color: #d2d0d0;
+   width: 655px;
+   top: 5px;
+   height: 230px;
+   border-radius: 5px;
+}
+
 .firstRow {
   position: absolute;
   display: flex;
