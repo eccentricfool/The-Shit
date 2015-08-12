@@ -1,9 +1,15 @@
+@font-face {
+   font-family: HelveticaNeue;
+   src: url(HelveticaNeue-Light.otf);
+   font-weight: 100;
+}
 *{
    padding: 0;
    margin: 0;
-   font-family: helvetica;
+   font-family: HelveticaNeue;
    font-size: 12px;
 }
+
 .keyboardBody{
    position: relative;
    background-color: #d2d0d0;
