@@ -124,6 +124,18 @@
    text-align: center;
    line-height: 19px;
 }
+
+.lowerRowArrows {
+  top: 20px;
+  position: absolute;
+  display: flex;
+}
+
+.upperRowArrows {
+  position: absolute;
+  left: 560px;
+}
+
 #k039{
    width: 60px;
 }
@@ -152,11 +164,13 @@
 #k160 {
    width: 60px;
 }
+
 #k162 {
    width: 60px;
 }
 #k164{
    height: 19px;
+
 }
 #k165{
    height: 19px;
