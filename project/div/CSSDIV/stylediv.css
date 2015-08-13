@@ -1,51 +1,112 @@
 *{
    padding: 0;
    margin: 0;
-   font-family: helvetica;
    font-size: 12px;
 }
-.keyboardBody{
+.keyboardBodyMac{
    position: relative;
    background-color: #d2d0d0;
-   width: 680px;
+   width: 655px;
    height: 230px;
    border-radius: 5px;
+   font-family: helvetica;
 }
+
+.keyboardBodyWin{
+   position: relative;
+   background-color: #868686;
+   width: 655px;
+   top: 5px;
+   height: 230px;
+   font-family: Roboto;
+   font-weight: 300;
+}
+
 .firstRow {
   position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 5px;
 }
 
 .secondRow {
   position: absolute;
-  top: 45px;
-  left: 5px;
+  display: flex;
+  flex-direction: row;
+  top: 50px;
 }
 
 .thirdRow {
   position: absolute;
-  top: 90px;
-  left: 5px;
+  top: 95px;
+  display: flex;
+  flex-direction: row;
 }
 
 .fourthRow {
   position: absolute;
-  top: 135px;
-  left: 5px;
+  top: 140px;
+  display: flex;
+  width: 680px;
+  flex-direction: row;
 }
 
 .fifthRow {
   position: absolute;
-  top: 180px;
-  left: 5px;
+  top: 185px;
+  display: flex;
+  flex-direction: row;
 }
 
+.WinFirstRow {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 3px;
+}
+
+.WinSecondRow {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 46px;
+}
+
+.WinThirdRow {
+  position: absolute;
+  top: 89px;
+  display: flex;
+  flex-direction: row;
+}
+
+.WinFourthRow {
+  position: absolute;
+  top: 132px;
+  display: flex;
+  width: 680px;
+  flex-direction: row;
+}
+
+.WinFifthRow {
+  position: absolute;
+  top: 175px;
+  display: flex;
+  flex-direction: row;
+}
 .standardKey{
-   position: absolute;
    background-color: #fff;
    height: 40px;
    width: 40px;
    top: 5px;
+   margin-left: 5px;
    border-radius: 5px;
+}
+.WinStandardKey{
+   background-color: #1a1919;
+   height: 40px;
+   width: 40px;
+   top: 3px;
+   margin-left: 3px;
 }
 .up{
    position: relative;
@@ -58,6 +119,21 @@
    display: block;
    text-align: center;
    margin-top: 5px;
+   flex-direction: row;
+}
+.Winup{
+   position: relative;
+   display: block;
+   text-align: center;
+   margin-top: 5px;
+   color: #faf6f6;
+}
+.Windown{
+   position: relative;
+   display: block;
+   text-align: center;
+   margin-top: 5px;
+   color: #faf6f6;
 }
 .letter {
   position: relative;
@@ -65,194 +141,158 @@
   text-align: center;
   line-height: 40px;
 }
+.Winletter{
+   position: relative;
+   display: block;
+   text-align: center;
+   line-height: 40px;
+   color: #faf6f6;
+}
 
 .leftSpecial {
   display: block;
   text-align: left;
   margin-top: 27px;
   margin-left: 5px;
-
+  font-size: 80%;
 }
-
-
+.leftSpecialUp {
+   display: block;
+   text-align: left;
+   margin-top: 4px;
+   margin-left: 5px;
+   font-size: 70%;
+}
+.leftSpecialDown {
+   display: block;
+   text-align: left;
+   margin-top: 14px;
+   margin-left: 5px;
+   font-size: 80%;
+}
 .rightSpecial{
    display: block;
    text-align: right;
    margin-right: 5px;
    margin-top: 27px;
+   font-size: 80%;
 }
 
 .rightSpecialDown{
   display: block;
   text-align: right;
   margin-right: 5px;
-  margin-top: 10px;
+  margin-top: 14px;
+  font-size: 80%;
 }
 
 .rightSpecialUp{
   display: block;
   text-align: right;
   margin-right: 5px;
-  margin-top: 5px;
-  font-size: 9px;
+  margin-top: 4px;
+  font-size: 70%;
+}
+.WinSpecial{
+   display: block;
+   text-align: center;
+   line-height: 40px;
+   font-size: 75%;
+   font-weight: 400;
+   color: #faf6f6;
+}
+.WinSpecialLeft{
+   display: block;
+   text-align: left;
+   line-height: 40px;
+   font-size: 75%;
+   margin-left: 7px;
+   font-weight: 400;
+   color: #faf6f6;
+}
+.WinArrows{
+   display: block;
+   text-align: center;
+   line-height: 19px;
+   color: #faf6f6;
+}
+.arrows{
+   display: block;
+   text-align: center;
+   line-height: 19px;
 }
 
-#k001{
-   left: 5px;
-}
-#k004{
-   left: 50px;
-}
-#k006{
-   left: 95px;
-}
-#k009{
-   left: 140px;
-}
-#k012{
-   left: 185px;
-}
-#k015{
-   left: 230px;
-}
-#k018{
-   left: 275px;
-}
-#k021{
-   left: 320px;
-}
-#k024{
-   left: 365px;
-}
-#k027{
-   left: 410px;
-}
-#k030{
-   left: 455px;
-}
-#k033{
-   left: 500px;
-}
-#k036{
-   left: 545px;
-}
-#k039{
-   width: 60px;
-   left: 590px;
-}
-#k040 {
-  width: 60px;
+.lowerRowArrows {
+  top: 20px;
+  position: absolute;
+  display: flex;
 }
 
-#tab {
-  display: block;
-  text-align: left;
-  margin-top: 27px;
-  margin-left: 5px;
-
-}
-
-#k043 {
-  left: 65px;
-}
-
-#k046 {
-  left: 110px;
-}
-
-#k049 {
-  left: 155px;
-}
-
-#k052 {
-  left: 200px;
-}
-
-#k055 {
-  left: 245px;
-}
-
-#k058 {
-  left: 290px;
-}
-
-#k061 {
-  left: 335px;
-}
-
-#k064 {
-  left: 380px;
-}
-
-#k067 {
-  left: 425px;
-}
-
-#k070 {
-  left: 470px;
-}
-
-#k073 {
-  left: 515px;
-}
-
-#k076 {
+.upperRowArrows {
+  position: absolute;
   left: 560px;
 }
+.WinUpperRowArrows {
+  position: absolute;
+  left: 546px;
+}
 
-#k079 {
-  left: 605px;
+#k039{
+   width: 60px;
+}
+
+#k040 {
+  width: 60px;
 }
 
 #k082 {
   width: 70px;
 }
 
-#k083 {
-  left: 75px;
-}
-
-#k084 {
-  left: 120px;
-}
-
-#k085 {
-  left: 165px;
-}
-
-#k086 {
-  left: 210px;
-}
-
-#k087 {
-  left: 255px;
-}
-
-#k088 {
-  left: 300px;
-}
-
-#k089 {
-  left: 345px;
-}
-
-#k090 {
-  left: 390px;
-}
-
-#k091 {
-  left: 435px;
-}
-
-#k092 {
-  left: 480px;
-}
-
-#k093 {
-  left: 525px;
-}
-
 #k094 {
-  left: 570px;
   width: 75px
+}
+
+#k121 {
+   width: 95px;
+}
+#k132 {
+   width: 95px;
+}
+#k132w{
+   width: 100px;
+}
+#k161 {
+   width: 200px;
+}
+#k157w{
+   width: 85px;
+}
+#k160w{
+   width: 55px;
+}
+#k159w{
+   width: 50px;
+}
+#k160 {
+   width: 60px;
+}
+#k162{
+   width: 60px;
+}
+#k162w {
+   width: 55px;
+}
+#k164{
+   height: 19px;
+
+}
+#k165{
+   height: 19px;
+}
+#k166{
+   height: 19px;
+}
+#k167{
+   height: 19px;
 }
