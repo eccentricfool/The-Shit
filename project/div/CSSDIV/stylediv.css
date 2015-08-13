@@ -1,7 +1,6 @@
 *{
    padding: 0;
    margin: 0;
-   font-family: helvetica;
    font-size: 12px;
 }
 .keyboardBodyMac{
@@ -10,15 +9,17 @@
    width: 655px;
    height: 230px;
    border-radius: 5px;
+   font-family: helvetica;
 }
 
 .keyboardBodyWin{
    position: relative;
-   background-color: #d2d0d0;
+   background-color: #868686;
    width: 655px;
    top: 5px;
    height: 230px;
-   border-radius: 5px;
+   font-family: Roboto;
+   font-weight: 300;
 }
 
 .firstRow {
@@ -57,6 +58,41 @@
   flex-direction: row;
 }
 
+.WinFirstRow {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 3px;
+}
+
+.WinSecondRow {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 46px;
+}
+
+.WinThirdRow {
+  position: absolute;
+  top: 89px;
+  display: flex;
+  flex-direction: row;
+}
+
+.WinFourthRow {
+  position: absolute;
+  top: 132px;
+  display: flex;
+  width: 680px;
+  flex-direction: row;
+}
+
+.WinFifthRow {
+  position: absolute;
+  top: 175px;
+  display: flex;
+  flex-direction: row;
+}
 .standardKey{
    background-color: #fff;
    height: 40px;
@@ -64,6 +100,13 @@
    top: 5px;
    margin-left: 5px;
    border-radius: 5px;
+}
+.WinStandardKey{
+   background-color: #1a1919;
+   height: 40px;
+   width: 40px;
+   top: 3px;
+   margin-left: 3px;
 }
 .up{
    position: relative;
@@ -78,11 +121,32 @@
    margin-top: 5px;
    flex-direction: row;
 }
+.Winup{
+   position: relative;
+   display: block;
+   text-align: center;
+   margin-top: 5px;
+   color: #faf6f6;
+}
+.Windown{
+   position: relative;
+   display: block;
+   text-align: center;
+   margin-top: 5px;
+   color: #faf6f6;
+}
 .letter {
   position: relative;
   display: block;
   text-align: center;
   line-height: 40px;
+}
+.Winletter{
+   position: relative;
+   display: block;
+   text-align: center;
+   line-height: 40px;
+   color: #faf6f6;
 }
 
 .leftSpecial {
@@ -129,6 +193,29 @@
   margin-top: 4px;
   font-size: 70%;
 }
+.WinSpecial{
+   display: block;
+   text-align: center;
+   line-height: 40px;
+   font-size: 75%;
+   font-weight: 400;
+   color: #faf6f6;
+}
+.WinSpecialLeft{
+   display: block;
+   text-align: left;
+   line-height: 40px;
+   font-size: 75%;
+   margin-left: 7px;
+   font-weight: 400;
+   color: #faf6f6;
+}
+.WinArrows{
+   display: block;
+   text-align: center;
+   line-height: 19px;
+   color: #faf6f6;
+}
 .arrows{
    display: block;
    text-align: center;
@@ -144,6 +231,10 @@
 .upperRowArrows {
   position: absolute;
   left: 560px;
+}
+.WinUpperRowArrows {
+  position: absolute;
+  left: 546px;
 }
 
 #k039{
@@ -168,15 +259,29 @@
 #k132 {
    width: 95px;
 }
+#k132w{
+   width: 100px;
+}
 #k161 {
    width: 200px;
+}
+#k157w{
+   width: 85px;
+}
+#k160w{
+   width: 55px;
+}
+#k159w{
+   width: 50px;
 }
 #k160 {
    width: 60px;
 }
-
-#k162 {
+#k162{
    width: 60px;
+}
+#k162w {
+   width: 55px;
 }
 #k164{
    height: 19px;
